@@ -1,10 +1,11 @@
 import './App.css';
 import { Button } from '@mui/material';
+import { Header } from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <Button>tets</Button>
+      <Header></Header>
     </div>
   );
 }
